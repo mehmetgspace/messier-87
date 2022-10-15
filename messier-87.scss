@@ -1,0 +1,8 @@
+/**
+  Vertical align with transform property.
+ */
+@mixin vertical-align-transform {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
